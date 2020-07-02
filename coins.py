@@ -1,6 +1,8 @@
+from money import Money
 a = float(input('Enter in £ and pence....'))
+m = Money(amount=a, currency='GBR')
 x = "p"
-z = "You entered £%s%s" % (a,x) #only way I could find to have no spaces between the numbers and £,p
+z = "You entered %s%s" % (m,x) #only way I could find to have no spaces between the numbers and £,p
 print(z)
 print("The change you need to give, need to be made up of the following ..")
 b = a * 100   #changes the float into a whole number, by simply moving the demical point two places
