@@ -33,7 +33,7 @@ signatureimage = r"C:\Users\MCARTHURP\Desktop\niw_stats\demo-file2.jpg"
 
 #send_email(sender,recipient):
 #mail = outlook.CreateItem(0)
-mail.To = 'pmcarthur@gmail.com; paul.mcarthur@fujitsu.com; andrew.owens1@fujitsu.com'
+mail.To = 'pmcarthur@**.com; paul.mcarthur@**.com; andrew.owens1@**.com'
 mail.Subject = "TEST : NIW - Performance Stats : TEST"
 attachment = mail.Attachments.Add(signatureimage)
 attachment.PropertyAccessor.SetProperty("http://schemas.microsoft.com/mapi/proptag/0x3712001F", "MyId1")
