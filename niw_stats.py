@@ -18,6 +18,8 @@ df.to_csv(r'C:\Users\MCARTHURP\Desktop\niw_stats\demo-file2.csv')
 #pl.suptitle(column_list[5])
 # print the new csv output
 ax = df.plot(figsize=(12,8))
+plt.xlabel('Time in 10min intervals i.e 120 = 24Hr')
+#plt.ylabel('% percentage')
 plt.suptitle(title)
 #ax.figure.savefig(os.path.join(path,r'demo-file2.jpg'))
 ax.figure.savefig(r'C:\Users\MCARTHURP\Desktop\niw_stats\demo-file2.jpg')
